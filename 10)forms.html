@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h2>Forms in HTML</h2>
+    <form action=""></form>
+    <label for="fName">Enter your first name: </label>
+    <input type="text" id="fName" minlength="5" maxlength="12" required>
+
+    <label for="mName">Enter your middle name: </label>
+    <input type="text" id="mName">
+
+    <label for="lName">Enter your last name: </label>
+    <input type="text" id="lName" disabled>
+    <!-- disabled helps dissabling input for a moment -->
+    <br><br>
+    <label for="">Age: </label>
+    <input type="number">
+
+    <br><br>
+    <label for="">Email: </label>
+    <input type="email">
+
+    <br><br>
+    <label for="">Date of joining: </label>
+    <input type="date">
+
+    <br><br>
+    <label for="">Password: </label>
+    <input type="password">
+
+    <p>Enter your shirt size: </p>
+        <input type="radio" name="shirt" id="small"> 
+        <label for="small">Small size</label>
+        <input type="radio" name="shirt" id="medium" checked> 
+        <label for="medium">Medium size</label>
+        <input type="radio" name="shirt" id="large"> 
+        <label for="large">Large size</label>
+
+        <br><br>
+        <label for="color">Please select your shirt's color: </label>
+        <input type="color">
+
+</body>
+
+</html>

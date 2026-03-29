@@ -9,15 +9,15 @@
 
 <body>
     <h2>Forms in HTML</h2>
-    <form action=""></form>
+    <form action="images.html"></form>
     <label for="fName">Enter your first name: </label>
-    <input type="text" id="fName" minlength="5" maxlength="12" required>
+    <input placeholder="Pls enter first name here" type="text" id="fName" minlength="5" maxlength="12" required>
 
     <label for="mName">Enter your middle name: </label>
-    <input type="text" id="mName">
+    <input type="text" id="mName" placeholder="Pls enter your middle name ">
 
     <label for="lName">Enter your last name: </label>
-    <input type="text" id="lName" disabled>
+    <input type="text" id="lName" disabled placeholder="Disabled text field">
     <!-- disabled helps dissabling input for a moment -->
     <br><br>
     <label for="">Age: </label>
@@ -47,6 +47,24 @@
         <label for="color">Please select your shirt's color: </label>
         <input type="color">
 
+        <br><br>
+        <label for="paymentOption">Please select a payment method:  </label>
+        <select name="payment" id="paymentOption">
+            <option value="">Gpay</option>
+            <option value="">phonepay</option>
+            <option value="">bhimpay</option>
+            <option value="">COD</option>
+        </select>
+
+            <br><br>
+            <label for="cmts">Please provide your valuable feedbaack: </label>
+            <!-- <input type="text"> -->
+             <!-- you can also add rows and cols too in textarea -->
+             <textarea name="" id="cmts" placeholder="Pls enter your comnts here....."></textarea>
+
+             <br><br>
+             <input type="reset" />
+             <input type="submit">
 </body>
 
 </html>
